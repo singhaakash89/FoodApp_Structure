@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <!--Array for Drawer List View Items-->
+    <!-- String Array-->
+    <string-array name="drawerListItem">
+        <item>Breakfast</item>
+        <item>Starter</item>
+        <item>Main Course</item>
+        <item>Beverages</item>
+        <item>Sweets</item>
+    </string-array>
+
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+
+    <!--Splash Data-->
+    <string name="Developer"> Developed by <b>Team FoodApp</b></string>
+</resources>

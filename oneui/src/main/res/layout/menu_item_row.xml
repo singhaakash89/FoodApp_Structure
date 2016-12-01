@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_background_low_gray"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/itemIV"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/item_image_dummy" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp">
+
+            <TextView
+                android:id="@+id/itemNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@string/font_family_light"
+                android:text="Kadai Paneer"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/itemVegOrNonVegTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@string/font_family_light"
+                android:text="(Vegetarian)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/rupeeIV"
+                android:layout_width="19dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/ic_rupee_symbol" />
+
+            <TextView
+                android:id="@+id/itemPriceTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@string/font_family_light"
+                android:text="12,999"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/itemRatingBackgroundIV"
+                android:layout_width="45dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="77dp"
+                android:src="@drawable/layout_background_yellow" />
+
+            <TextView
+                android:id="@+id/itemRatingTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="77dp"
+                android:fontFamily="@string/font_family_regular"
+                android:text="4.0"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/itemRatingIcon"
+                android:layout_width="29dp"
+                android:layout_height="11dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="81dp"
+                android:src="@drawable/ic_rating" />
+
+            <ImageView
+                android:id="@+id/isItemAvailableIV"
+                android:layout_width="60dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="105dp"
+                android:src="@drawable/layout_background_green_available" />
+
+            <TextView
+                android:id="@+id/isItemAvailableTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="105dp"
+                android:fontFamily="@string/font_family_light"
+                android:text="Available"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

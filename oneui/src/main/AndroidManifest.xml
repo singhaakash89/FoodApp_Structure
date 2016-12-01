@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.food_app.component.oneui">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.food_app.component.oneui.SplashActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="com.food_app.component.oneui.BaseActivity"
+            android:label=" "
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>
